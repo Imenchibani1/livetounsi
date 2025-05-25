@@ -1,0 +1,183 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+p {
+  font-weight: 300;
+  color: #111;
+}
+header {
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  padding: 20px;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.logo {
+  color: rgb(29, 134, 226);
+  font-weight: bold;
+  font-size: 2em;
+  text-decoration: none;
+}
+.logo span {
+  color: rgb(32, 32, 176);
+}
+.list {
+  display: flex;
+  position: relative;
+}
+.list li {
+  list-style: none;
+}
+.list a {
+  color: rgb(32, 32, 176);
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: 700;
+}
+.btn-reserve {
+  padding: 10px 20px;
+  background: rgb(32, 32, 176);
+  margin-top: -10px;
+  text-transform: uppercase;
+}
+.btn-reserve:hover {
+  background: rgb(32, 32, 176);
+  transition: ease-out;
+}
+
+.btn-reserve:hover {
+  background: rgb(2, 2, 24);
+  transition: ease-out;
+}
+header .list li a:hover {
+  color: rgb(32, 32, 176);
+  border-bottom: 2px solid rgb(32, 32, 176);
+}
+.home{
+  position: relative;
+  height: 100vh;
+  background: url(tbarka.jpg) no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home  {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 1; /* Layering to appear beneath the text */
+.home .contenu {
+  max-width: 70%;
+  text-align: center;
+}
+.home.contenu h2 {
+  color: rgb(10, 112, 236);
+  font-size: 3em;
+  text-transform: capitalize;
+}
+.contenu p:nth-child(2) {
+  color: rgb(95, 90, 167);
+  font-size: 1.2em;
+}
+/*deusieme page*/
+section {
+  padding: 100px;
+}
+.des {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.des .hh {
+  position: relative;
+  width: 48%;
+  justify-content: center;
+  align-items: center;
+}
+
+.des .hh h2 {
+  margin-bottom: 20px;
+}
+.titre-texte {
+  color: #000;
+  font-size: 2em;
+  font-weight: 300px;
+  text-transform: capitalize;
+}
+.titre-texte span {
+  color: #fb911f;
+  font-size: 1.5em;
+  font-weight: 700px;
+}
+.des .hh img {
+  height: 45p0x;
+  width: 60px;
+  position: relative;
+}
+/*3partie*/
+.titre {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(10, 112, 236);
+}
+
+.menu {
+  margin-top: -100px;
+}
+
+.menu .contenu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.menu .contenu .box {
+  width: 350px;
+  margin: 20px;
+  border: 20px solid #fff;
+  box-shadow: 20px 15px 35px rgba(0, 0, 0, 0.8);
+}
+
+.menu .contenu .box .imbox {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.menu .contenu .box .imbox img {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.menu .contenu .box .text {
+  text-align: center;
+  font-weight: 300px;
+  color: #111;
+}
+
+.menu .contenu .box .text h3 {
+  font-weight: 400;
+}
